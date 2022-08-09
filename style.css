@@ -9,9 +9,6 @@ body{
     background-color: hsl(30, 38%, 92%);
 }
 
-.attribution { font-size: 14px; text-align: center; position: fixed; bottom: 0px; left: 20%; transform: translateX(-20%); }
-.attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
-
 .container{
     width: 90%;
     border-radius: 15px;
@@ -30,7 +27,7 @@ body{
     padding: 20px;
 }
 .description h1{
-    font-size: 30px;
+    font-size: 32px;
     line-height: 0.95;
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
@@ -151,4 +148,16 @@ font-size: 35px;
     }
 }
 
-
+.attribution {
+    font-size: 14px;
+    text-align: center; 
+    position: fixed; 
+    bottom: 0px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+   }
+   
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+   text-decoration: none;
+}
